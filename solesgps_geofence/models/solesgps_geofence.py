@@ -7,7 +7,16 @@ from odoo import api, fields, models, _
 
 class geofence(models.Model):
     _inherit = "gpsmap.geofence"
+    def geofences(self):
+        alerts_obj      =self.env['gpsmap.geofence_device']
 
+        alerts_args    =[]
+        alerts_data    =alerts_obj.search(alerts_args, offset=0, limit=None, order=None)
+
+        if len(alerts_data)>0:                     
+            #for alerts in alerts_data:
+            #    print('ALERT ====================',alerts.name)        
+            return alerts_data
         
 class geofence_device(models.Model):
     _name = "gpsmap.geofence_device"

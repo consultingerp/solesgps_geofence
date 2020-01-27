@@ -1,67 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
       <record id="solesgpsgeofence_p1_1" model="gpsmap.geofence"> 
-          <field name="name">principal</field>
-          <field name="color">red</field>
-          
-          <field name="hidden" eval="False"/>                                                    
-           
-          <field name="points">-104.31947261829616,19.092976616298785|-104.30745632190944,19.079106385212864|-104.2940667345071,19.081620957538203|-104.287990113307,19.074385194335118|-104.26636077981091,19.066516545674943|-104.2711672983656,19.097988897931785|-104.29774736923918,19.104633068619254|</field>
+          <field name="name">Manzanillo Colima Mexico</field>
+          <field name="color">red</field>         
+          <field name="hidden" eval="True"/>                                                               
+          <field name="points">-104.30804140232492,19.058507087476677|-104.30769807957101,19.045364165627564|-104.27611238621164,19.058344835530306|-104.27130586765695,19.09616703785625|-104.3154228415339,19.114982906508324|-104.31507951878,19.131850485576447|-104.36022646091867,19.145310875377472|-104.37481767795968,19.115956082866955|-104.36091310642648,19.10474576346802|-104.35524828098703,19.08641540488248|-104.3315590109675,19.098581798662845|-104.31267625950265,19.08329592927645|</field>
       </record>
       <record id="solesgpsgeofence_p1_2" model="gpsmap.geofence"> 
           <field name="name">p1_2</field>
           <field name="color">red</field>                          
-          <field name="points">-104.29582690067555,19.08929211463715|-104.29378842182423,19.085500138365262|-104.29885243244435,19.086189595055693|</field>
+          <field name="points">-104.34222429957507,19.11349806822503|-104.34146255221484,19.11321422149207|-104.34183806147692,19.11272762595895|-104.34259980883715,19.112991198717154|</field>
       </record>
       <record id="solesgpsgeofence_p1_3" model="gpsmap.geofence"> 
           <field name="name">p1_3</field>
           <field name="color">red</field>                          
-          <field name="points">-104.28710479187127,19.07639506697303|-104.2844440405285,19.079497770035942|-104.28995866226312,19.07961944348174|</field>
+          <field name="points">-104.34033336571142,19.121968894986743|-104.33887424400731,19.121786431493764|-104.33928193977758,19.120691646305303|-104.3402046196787,19.120813289462156|</field>
       </record>
       <record id="solesgpsgeofence_p1_4" model="gpsmap.geofence"> 
           <field name="name">p1_4</field>
           <field name="color">red</field>                          
-          <field name="points">-104.27559207380648,19.09072312162982|-104.27979777754183,19.095914090603667|-104.27104304731722,19.096076305760846|</field>
+          <field name="points">-104.33175841435651,19.118125969421385|-104.33074990376691,19.11798405008885|-104.3312863455699,19.11705143430091|-104.33203933089455,19.11737514719907|</field>
       </record>
+      <record id="solesgpsgeofence_p1_5" model="gpsmap.geofence"> 
+          <field name="name">p1_5</field>
+          <field name="color">red</field>                          
+          <field name="points">-104.3371709063083,19.10880093384306|-104.33614093804658,19.109733596171065|-104.33562595391572,19.108517079047033|-104.33665592217744,19.107949367993374|</field>
+      </record>
+
       <record id="solesgpsgeofence_p2_1" model="gpsmap.geofence"> 
           <field name="name">p2_1</field>
           <field name="color">green</field>                          
-          <field name="points">-104.28385877453441,19.077332665153733|-104.28849363171214,19.074574673702593|-104.28278589092845,19.07270894757196|</field>
+          <field name="points">-104.32721454644502,19.102758776579037|-104.32811576867402,19.101826074921785|-104.3269292421399,19.101081709143656|-104.32596364689454,19.101933310349256|</field>
       </record>
       <record id="solesgpsgeofence_p2_2" model="gpsmap.geofence"> 
           <field name="name">p2_2</field>
           <field name="color">green</field>                          
-          <field name="points">-104.27700379444794,19.072694841671787|-104.27854874684051,19.069632571470112|-104.27359202458099,19.069186408175337|</field>
+          <field name="points">-104.30867101283579,19.085533343096106|-104.30964733691721,19.085077083505254|-104.30884267421274,19.08405302962434|-104.30776979060678,19.084428178810757|</field>
       </record>
       <record id="solesgpsgeofence_p2_3" model="gpsmap.geofence"> 
           <field name="name">p2_3</field>
           <field name="color">green</field>                          
-          <field name="points">-104.27226494859707,19.070967978609875|-104.27080582689297,19.065532860469414|-104.26685761522305,19.07023789847552|</field>
+          <field name="points">-104.29679014257334,19.086444730881205|-104.29464437536143,19.087478908940874|-104.29569580129527,19.08863474736365|-104.2982063489332,19.08788446720108|</field>
+      </record>
+      <record id="solesgpsgeofence_p2_4" model="gpsmap.geofence"> 
+          <field name="name">p2_4</field>
+          <field name="color">green</field>                          
+          <field name="points">-104.31248330240821,19.107927178051398|-104.31404971247291,19.10754194438917|-104.31267642145728,19.106426789256144|-104.31143187647437,19.107055332164844|</field>
       </record>
       <record id="solesgpsgeofence_p3_1" model="gpsmap.geofence"> 
           <field name="name">p3_1</field>
           <field name="color">yellow</field>                          
-          <field name="points">-104.25841530122672,19.107691023160697|-104.257385332965,19.088874322657002|-104.23737945470204,19.087840650271406|-104.2378944388329,19.11411871387867|</field>
+          <field name="points">-104.31673853545236,19.11113457432884|-104.31575148253488,19.11064797267561|-104.31684582381295,19.109948480290466|-104.31756465582895,19.110637835125935|</field>
       </record>
+
       <record id="solesgpsgeofence_p3_2" model="gpsmap.geofence"> 
           <field name="name">p3_2</field>
           <field name="color">yellow</field>                          
-          <field name="points">-104.21954996250558,19.108681289349416|-104.21834833286691,19.08467354527263|-104.18882257603097,19.077210969605577|-104.18968088291574,19.121819187580016|</field>
+          <field name="points">-104.33229284717,19.104556890157138|-104.33277028037465,19.10414123480348|-104.33212655021107,19.10375092333762|-104.33170812560475,19.104262890137047|</field>
       </record>
       
 
       <record id="solesgpsalert_1" model="gpsmap.geofence_device"> 
-          <field name="name">Alarm 1 </field>
+          <field name="name">Alarm red route</field>
           <field name="mail_in">e.vizcaino@solesgps.com</field>          
-          <field name="geofence_ids"  eval="[(6, 0, [solesgpsgeofence_p1_1,solesgpsgeofence_p1_2,solesgpsgeofence_p1_3,solesgpsgeofence_p1_4,solesgpsgeofence_p3_1,solesgpsgeofence_p3_2,])]"/>                                                    
-          <field name="device_ids" eval="[(4, ref('fleet.vehicle_1'))]"/>
+          <field name="geofence_ids"  eval="[(6, 0, [solesgpsgeofence_p1_2,solesgpsgeofence_p1_3,solesgpsgeofence_p1_4,solesgpsgeofence_p1_5,solesgpsgeofence_p3_1,solesgpsgeofence_p3_2,])]"/>                                                    
+          <field name="device_ids" eval="[(4, ref('fleet.vehicle_1')),(4, ref('fleet.vehicle_4')),(4, ref('fleet.vehicle_5'))]"/>
       </record>
 
       <record id="solesgpsalert_2" model="gpsmap.geofence_device"> 
-          <field name="name">Alarm 2 </field>
+          <field name="name">Alarm green route</field>
           <field name="mail_in">e.vizcaino@solesgps.com</field>          
-          <field name="geofence_ids"  eval="[(6, 0, [solesgpsgeofence_p3_1, solesgpsgeofence_p3_2, ])]"/>                                                    
+          <field name="geofence_ids"  eval="[(6, 0, [solesgpsgeofence_p2_1, solesgpsgeofence_p2_2, solesgpsgeofence_p2_3, solesgpsgeofence_p2_4,solesgpsgeofence_p3_1,solesgpsgeofence_p3_2, ])]"/>                                                    
           <field name="device_ids" eval="[(4, ref('fleet.vehicle_2')),(4, ref('fleet.vehicle_3'))]"/>
+      </record>
+
+      <record id="solesgpsalert_3" model="gpsmap.geofence_device"> 
+          <field name="name">Alarm Manzanillo Colima</field>
+          <field name="mail_in">e.vizcaino@solesgps.com</field>          
+          <field name="geofence_ids"  eval="[(6, 0, [solesgpsgeofence_p1_1])]"/>                                                    
+          <field name="device_ids" eval="[(4, ref('fleet.vehicle_1')),(4, ref('fleet.vehicle_2')),(4, ref('fleet.vehicle_3')),(4, ref('fleet.vehicle_4')),(4, ref('fleet.vehicle_5'))]"/>
       </record>
   
 </odoo>
